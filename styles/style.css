@@ -106,6 +106,12 @@ body{
     font-size: 36px;
     font-weight: 400;
 }
+.main-content p{
+    font-size: 18px;
+}
+.activity-headline{
+    text-decoration: underline;
+}
 .activities{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

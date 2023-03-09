@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+.top-bg{
+    height: 50px;
+    background-color: gainsboro;
+    color: black;
+    display: grid;
+    align-items: center;
+}
+.top-bg h3{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* nav-bar section start */
+.nav-bar{
+    margin-top: 30px;
+    background-color: black;
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    border-right: 1px dotted lightgray;
+}
+/* nav bar profile picture starts */
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.profile-pic{
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+/* nav bar details sections start */
+.menu-bar{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.menu-bar .bio h2{
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.menu-bar .bio h4{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 200;
+}
+.menu-bar .bio p{
+    font-size: 14px;
+    text-align: justify;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* contact btn */
+.contact-btn{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    text-align: center;    
+}
+.contact-btn:hover{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(4, 4, 4);
+    font-weight: bold;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    text-align: center;    
+}
+
+.social i{
+    padding: 5px;
+}
+
+
+.main-content{
+    text-align: left;
+    width: 950px;
+}
+.main-content h2{
+    font-size: 36px;
+    font-weight: 400;
+}
+.activities{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.main-content img{
+    margin: 5px;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}

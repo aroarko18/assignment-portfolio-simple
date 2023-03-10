@@ -28,17 +28,17 @@ body{
     width: 350px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    align-items: center;
+    /* align-items: ; */
     border-right: 1px dotted lightgray;
 }
 /* nav bar profile picture starts */
 .profile{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 .profile-pic{
     margin-top: 30px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     width: 200px;
     height: 150px;
     border-radius: 25px;
